@@ -1,0 +1,8 @@
+__pycache__/
+outputs/
+logs/
+logs1/
+logs2/
+pentest/
+docs/
+.DS_Store

@@ -1,0 +1,12 @@
+dataclasses; python_version < '3.7'
+requests
+loguru
+openai
+tiktoken
+tenacity
+langchain
+langchain-community
+langchain-openai
+huggingface_hub
+pexpect
+cvss
