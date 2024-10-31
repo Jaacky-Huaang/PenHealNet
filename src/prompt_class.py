@@ -132,3 +132,15 @@ class PromptStore:
     default_cost_rubrics: str = """Low-Cost recommendations: These include applying free patches, making configuration changes, or executing simple commands. They typically require minimal resources and are assigned a ''cost'' score of 2.
         Moderate-Cost recommendations: This category includes recommendations that require manually writing scripts or programs, purchasing software or hardware, or involving some risk. They are assigned a moderate ''cost'' score of 5.
         High-Cost recommendations: recommendations that necessitate stopping a service, shutting down a system, or carrying a high risk of causing system disruptions fall into this category. Given the significant impact and disruption they may cause, these are assigned the highest ''cost'' score of 10."""
+    
+    user_guideline: str = """
+        To ensure responsible and secure use of PenHealNet, all users are required to adhere to the following guidelines. These practices are established to maintain operational integrity, comply with legal standards, and ensure that all activities conducted with PenHealNet are ethical.\n
+        1. Operate Within Controlled Environments:\n
+        PenHealNet should only be activated within designated, secure testing environments. These environments are configured to prevent unintended interactions with critical systems.\n
+        2. Legal Compliance:\n
+        All testing must comply with applicable laws and regulations, including data protection laws such as General Data Protection Regulation (GDPR). Users are responsible for adhering to the legal standards relevant to their geographic location and industry.\n
+        3. Follow Ethical Guidelines:\n
+        Use PenHealNet in accordance with OpenAI’s terms of service  and ethical guidelines available at https://openai.com/policies/row-terms-of-use/. Ensure that the tool is used for intended and approved purposes only, avoiding any activities that could be deemed as malicious or unethical.\n
+        4. Authorized User Access:\n
+        Access to PenHealNet is restricted to users who have been granted permission. These users must have completed necessary security training and understand the ethical implications and responsibilities associated with penetration testing.\n
+        """
